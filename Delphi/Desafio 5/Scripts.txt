@@ -1,0 +1,12 @@
+create table alunos
+(cod_aluno    int      not null,
+nom_aluno     varchar(40),
+              primary key(cod_aluno)
+);
+
+create table notas
+(n1               float  not null,
+n2                float  not null,
+n3                float  not null,
+media_exercicio   float,
+);

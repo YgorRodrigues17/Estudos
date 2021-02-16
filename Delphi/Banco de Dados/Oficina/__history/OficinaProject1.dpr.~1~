@@ -1,0 +1,22 @@
+program OficinaProject1;
+
+uses
+  Vcl.Forms,
+  OficinaUnit1 in 'OficinaUnit1.pas' {Form1},
+  FuncionariosUnit2 in 'FuncionariosUnit2.pas' {Form2},
+  ServicosUnit3 in 'ServicosUnit3.pas' {Form3},
+  VeiculosUnit4 in 'VeiculosUnit4.pas' {Form4},
+  DataModuleOficinaUnit5 in 'DataModuleOficinaUnit5.pas' {DataModule5: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TDataModule5, DataModule5);
+  Application.Run;
+end.

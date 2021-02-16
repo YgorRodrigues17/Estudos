@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/29 10:33:33.000.422,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 10:34:39.000.066,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj</Transaction>
+    <Transaction>2020/11/04 14:00:19.892,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/11/04 14:08:48.820,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Calculadora\Calculadora.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/11/04 14:08:48.820,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Calculadora\Calculadora.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm</Transaction>
+    <Transaction>2020/11/04 14:09:13.547,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Calculadora\ProjectCalculadora.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

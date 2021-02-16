@@ -1,0 +1,23 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 307
+  Width = 442
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=Agenda'
+      'User_Name=root'
+      'Password=kle621199'
+      'DriverID=MySQL')
+    Left = 56
+    Top = 40
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    Left = 160
+    Top = 40
+  end
+  object DataSource1: TDataSource
+    Left = 56
+    Top = 120
+  end
+end
