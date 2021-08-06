@@ -1,0 +1,111 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 223
+  Width = 385
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Password=password'
+      'Database=clinica'
+      'DriverID=MySQL')
+    Connected = True
+    Left = 48
+    Top = 48
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 136
+    Top = 120
+  end
+  object FDTable1: TFDTable
+    Active = True
+    IndexFieldNames = 'id'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'pacientes'
+    CatalogName = 'clinica'
+    TableName = 'pacientes'
+    Left = 136
+    Top = 48
+    object FDTable1id: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object FDTable1cpf: TStringField
+      FieldName = 'cpf'
+      Origin = 'cpf'
+      Required = True
+    end
+    object FDTable1nome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 50
+    end
+    object FDTable1celular: TStringField
+      FieldName = 'celular'
+      Origin = 'celular'
+      Required = True
+    end
+    object FDTable1data_cadastro: TDateField
+      FieldName = 'data_cadastro'
+      Origin = 'data_cadastro'
+      Required = True
+    end
+  end
+  object DataSource2: TDataSource
+    DataSet = FDTable2
+    Left = 224
+    Top = 120
+  end
+  object FDTable2: TFDTable
+    Active = True
+    IndexFieldNames = 'id_agendamento'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'agendamento'
+    CatalogName = 'clinica'
+    TableName = 'agendamento'
+    Left = 224
+    Top = 48
+    object FDTable2id_agendamento: TFDAutoIncField
+      FieldName = 'id_agendamento'
+      Origin = 'id_agendamento'
+      ProviderFlags = [pfInWhere, pfInKey]
+      ReadOnly = True
+    end
+    object FDTable2id_paciente: TIntegerField
+      FieldName = 'id_paciente'
+      Origin = 'id_paciente'
+      Required = True
+    end
+    object FDTable2data: TDateField
+      FieldName = 'data'
+      Origin = '`data`'
+      Required = True
+    end
+    object FDTable2hora: TStringField
+      FieldName = 'hora'
+      Origin = 'hora'
+      Required = True
+      Size = 10
+    end
+    object FDTable2especialidade: TStringField
+      FieldName = 'especialidade'
+      Origin = 'especialidade'
+      Required = True
+      Size = 30
+    end
+    object FDTable2medico: TStringField
+      FieldName = 'medico'
+      Origin = 'medico'
+      Required = True
+      Size = 30
+    end
+  end
+  object FDTransaction1: TFDTransaction
+    Connection = FDConnection1
+    Left = 48
+    Top = 120
+  end
+end

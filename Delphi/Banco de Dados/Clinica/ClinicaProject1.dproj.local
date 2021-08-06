@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/29 10:33:33.000.422,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.pas</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.dfm</Transaction>
+    <Transaction>2020/10/29 10:34:39.000.066,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj</Transaction>
+    <Transaction>2020/11/06 16:24:21.000.411,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 15:41:32.000.911,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/25 18:29:58.000.077,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/25 18:34:49.000.243,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\ClinicaUnit1.pas</Transaction>
+    <Transaction>2021/01/25 18:34:49.000.243,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\ClinicaUnit1.dfm</Transaction>
+    <Transaction>2021/01/25 18:47:07.000.710,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\ClinicaProject1.dproj</Transaction>
+    <Transaction>2021/01/25 20:22:04.000.532,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit2.pas</Transaction>
+    <Transaction>2021/01/25 20:22:37.000.157,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit2.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\CadastroUnit2.pas</Transaction>
+    <Transaction>2021/01/25 20:22:37.000.157,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit2.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\CadastroUnit2.dfm</Transaction>
+    <Transaction>2021/01/25 20:22:46.000.690,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit3.pas</Transaction>
+    <Transaction>2021/01/25 20:22:59.000.939,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit3.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\AgendamentoUnit3.dfm</Transaction>
+    <Transaction>2021/01/25 20:22:59.000.939,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\Unit3.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Clinica\AgendamentoUnit3.pas</Transaction>
+    <Transaction>2021/01/27 09:38:00.000.785,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Clinica\Unit1.pas</Transaction>
+    <Transaction>2021/01/27 09:58:54.000.722,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Clinica\ClinicaUnit4.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Clinica\Unit1.dfm</Transaction>
+    <Transaction>2021/01/27 09:58:54.000.722,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Clinica\ClinicaUnit4.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Clinica\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

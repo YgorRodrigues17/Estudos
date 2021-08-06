@@ -1,0 +1,71 @@
+object DataModule3: TDataModule3
+  OldCreateOrder = False
+  Height = 199
+  Width = 305
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Users\fortes\Downloads\DADOS\DADOS.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    Left = 32
+    Top = 24
+  end
+  object FDTable1: TFDTable
+    Active = True
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'ALUNOS'
+    TableName = 'ALUNOS'
+    Left = 136
+    Top = 24
+    object FDTable1COD_ALUNO: TIntegerField
+      FieldName = 'COD_ALUNO'
+      Origin = 'COD_ALUNO'
+      Required = True
+    end
+    object FDTable1NOM_ALUNO: TStringField
+      FieldName = 'NOM_ALUNO'
+      Origin = 'NOM_ALUNO'
+      Size = 100
+    end
+  end
+  object FDTable2: TFDTable
+    Active = True
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'NOTAS'
+    TableName = 'NOTAS'
+    Left = 136
+    Top = 112
+    object FDTable2N1: TSingleField
+      FieldName = 'N1'
+      Origin = 'N1'
+      Required = True
+    end
+    object FDTable2N2: TSingleField
+      FieldName = 'N2'
+      Origin = 'N2'
+      Required = True
+    end
+    object FDTable2N3: TSingleField
+      FieldName = 'N3'
+      Origin = 'N3'
+      Required = True
+    end
+    object FDTable2MEDIA_EXERCICIOS: TSingleField
+      FieldName = 'MEDIA_EXERCICIOS'
+      Origin = 'MEDIA_EXERCICIOS'
+      Required = True
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 224
+    Top = 24
+  end
+  object DataSource2: TDataSource
+    DataSet = FDTable2
+    Left = 224
+    Top = 112
+  end
+end

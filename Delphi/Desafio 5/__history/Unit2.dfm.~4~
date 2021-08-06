@@ -1,0 +1,98 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Calculo de Notas'
+  ClientHeight = 221
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 32
+    Height = 13
+    Caption = 'Nota 1'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 54
+    Width = 32
+    Height = 13
+    Caption = 'Nota 2'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 100
+    Width = 32
+    Height = 13
+    Caption = 'Nota 3'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 146
+    Width = 98
+    Height = 13
+    Caption = 'Media dos Exercicios'
+  end
+  object Memo1: TMemo
+    Left = 232
+    Top = 8
+    Width = 185
+    Height = 145
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 224
+    Top = 172
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object DBEdit1: TDBEdit
+    Left = 8
+    Top = 27
+    Width = 121
+    Height = 21
+    DataField = 'N1'
+    DataSource = DataModule3.DataSource2
+    TabOrder = 2
+  end
+  object DBEdit2: TDBEdit
+    Left = 8
+    Top = 73
+    Width = 121
+    Height = 21
+    DataField = 'N2'
+    DataSource = DataModule3.DataSource2
+    TabOrder = 3
+  end
+  object DBEdit3: TDBEdit
+    Left = 8
+    Top = 119
+    Width = 121
+    Height = 21
+    DataField = 'MEDIA_EXERCICIO'
+    DataSource = DataModule3.DataSource2
+    TabOrder = 4
+  end
+  object DBEdit4: TDBEdit
+    Left = 8
+    Top = 165
+    Width = 121
+    Height = 21
+    DataField = 'MEDIA_EXERCICIO'
+    DataSource = DataModule3.DataSource2
+    TabOrder = 5
+  end
+end

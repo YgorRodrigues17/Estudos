@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/29 10:33:33.000.422,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.pas</Transaction>
+    <Transaction>2020/10/29 10:34:30.000.507,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1Principal.dfm</Transaction>
+    <Transaction>2020/10/29 10:34:39.000.066,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj</Transaction>
+    <Transaction>2020/11/06 16:24:21.000.411,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2020/11/24 15:41:32.000.911,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/27 18:14:16.000.280,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas</Transaction>
+    <Transaction>2021/01/27 18:14:28.000.398,=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit2.pas</Transaction>
+    <Transaction>2021/01/27 18:22:56.000.101,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Empresa\EmpresaUnit1.pas</Transaction>
+    <Transaction>2021/01/27 18:22:56.000.101,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit1.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Empresa\EmpresaUnit1.dfm</Transaction>
+    <Transaction>2021/01/27 18:23:08.000.351,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit2.pas=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Empresa\EmpresaUnit2.pas</Transaction>
+    <Transaction>2021/01/27 18:23:08.000.351,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Unit2.dfm=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Empresa\EmpresaUnit2.dfm</Transaction>
+    <Transaction>2021/01/27 18:23:16.000.598,C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Project1.dproj=C:\Users\ygorr\Desktop\Estudo Ygor\DELPHI\Banco de Dados\Empresa\EmpresaProject1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
